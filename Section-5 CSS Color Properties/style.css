@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*imp! CSS COLOR NAMES */
+
+p{
+    color:chocolate;
+}
+
+/*imp! RGB VALUES */
+
+p{
+    color: rgba(96, 194, 213,1);
+}
+
+/*imp! HEX VALUES */
+
+p{
+    color: rgba(0, 0, 255, 0.502);
+}
+
+/*imp! HSL VALUES */
+
+p{
+    color: rgb(0, 0, 255);
+}

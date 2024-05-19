@@ -1,0 +1,125 @@
+/*imp! CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*imp! BODY CSS */
+
+body{
+  background-color: #000235;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/*imp! A TAG CSS */
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  margin: 0 12px;
+  padding: 15px 18px;
+  border-radius: 100%;
+  box-shadow: 0 3px 10px rgba(255,255,255,0.169);
+}
+
+a.icon::before{
+  font-family: 'FontAwesome';
+  color: #fff;
+  font-size: 20px;
+}
+
+a.facebook::before{
+  content: '\f09a';
+}
+
+a.youtube::before{
+  content: '\f16a';
+}
+
+a.github::before{
+  content: '\f113';
+}
+
+a.dribble::before{
+  content: '\f17d';
+}
+
+a.pinterest::before{
+  content: '\f0d2';
+}
+
+a span{
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Helvetica';
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  right: -25px;
+  padding: 5px;
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+a span::before{
+  content: "";
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 40px;
+}
+
+a:hover span{
+  bottom: 50px;
+  opacity: 1;
+}
+
+a.facebook:hover{
+  background-color: #4183d7;
+}
+
+a.facebook span{
+  color: #4183d7;
+}
+
+a.youtube:hover{
+  background-color: #ff0000;
+}
+
+a.youtube span{
+  color: #ff0000;
+}
+
+a.github:hover{
+  background-color: #000000;
+}
+
+a.github span{
+  color: #000000;
+}
+
+a.dribble:hover{
+  background-color: #f62459;
+}
+
+a.dribble span{
+  color: #f62459;
+}
+
+a.pinterest:hover{
+  background-color: #f22613;
+}
+
+a.pinterest span{
+  color: #f22613;
+}

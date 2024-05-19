@@ -1,0 +1,26 @@
+/* imp! REMOVE THE COMMENTS TO TEST THE CODE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*imp! FLOAT AND CLEAR CSS PROPERTY */
+
+/* h5{
+    float: left;
+    width: 50%;
+}
+
+.float{
+    clear: both;
+} */
+
+/*imp! OVERFLOW CSS PROPERTY */
+
+/* .overflow{
+    width: 500px;
+    height: 30px;
+    overflow: scroll;
+} */

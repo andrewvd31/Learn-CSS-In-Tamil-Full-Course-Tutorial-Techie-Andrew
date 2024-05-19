@@ -1,0 +1,75 @@
+/*imp! BODY CSS */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+/* imp! NAVBAR CSS */
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    color: goldenrod;
+    font-size: 16px;
+    border: 0.3em solid goldenrod;
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 1em;
+    transition: 0.5s;
+    cursor: pointer;
+    line-height: 3em;
+    overflow: hidden;
+}
+
+nav ul li span{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: goldenrod;
+    transform: translateY(150%);
+    border-radius: 50%;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+nav ul li:hover{
+    color: black;
+}
+
+nav ul li:hover span{
+    transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1){
+    left: 0;
+    transition-delay: 0;
+}
+
+nav ul li span:nth-child(2){
+    left: 25%;
+    transition-delay: 0.1s;
+}
+
+nav ul li span:nth-child(3){
+    left: 50%;
+    transition-delay: 0.2s;
+}
+
+nav ul li span:nth-child(4){
+    left: 75%;
+    transition-delay: 0.3s;
+}

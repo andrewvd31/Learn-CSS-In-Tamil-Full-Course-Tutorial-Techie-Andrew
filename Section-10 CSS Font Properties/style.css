@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+@font-face {
+    font-family: 'Satisfy';
+    src: url(./Satisfy-Regular.ttf);
+}
+
+body{
+    background-color: #050060;
+    color: #fff;
+}
+
+.serif{
+    font-family: 'Times New Roman', 'Helvetica',sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.sans-serif{
+    font-family: 'Arial', 'Helvetica',sans-serif;
+}
+
+.monospace{
+    font-family: 'Lucida Console', 'Helvetica',sans-serif;
+}
+
+.cursive{
+    font-family: 'Brush Script MT','Helvetica',sans-serif;
+}
+
+.fantasy{
+    font-family: 'Papyrus','Helvetica',sans-serif;
+}
+
+.google-font{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.font-face{
+    font-family: 'Satisfy';
+}

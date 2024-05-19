@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation: moveEffect 1s 1s ease-in-out backwards 5;
+    position: relative;
+    top: 0;
+}
+
+@keyframes moveEffect{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 100px;
+    }
+    100%{
+        top: 200px;
+    }
+}

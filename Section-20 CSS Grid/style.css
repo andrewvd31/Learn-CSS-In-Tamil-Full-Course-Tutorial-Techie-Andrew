@@ -1,0 +1,47 @@
+/* REMOVE THE COMMENTS TO TEST THE CODE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    display: grid;
+    /* grid-template-areas: 'myDiv myDiv1 myDiv1''myDiv myDiv2 myDiv2';
+    grid-template-areas: 'myDiv myDiv . . . . .'; */
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+
+.grid-container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+
+.grid-container div:nth-child(1){
+    /* grid-column-start: 1;
+    grid-column-end: 3;  */
+    /* grid-column: 1/ span 4; */
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+    /* grid-row: 1/span 3; */
+    /* grid-area: 1 / 1 / 3 / 5; */
+    /* grid-area: myDiv; */
+}
+
+/* 
+.grid-container div:nth-child(2){
+    grid-area: myDiv1;
+}
+
+.grid-container div:nth-child(3){
+    grid-area: myDiv2;
+} */
+
+.grid-container div:nth-child(odd){background-color: lightgreen;}
+
+.grid-container div:nth-child(even){background-color: lightpink;}

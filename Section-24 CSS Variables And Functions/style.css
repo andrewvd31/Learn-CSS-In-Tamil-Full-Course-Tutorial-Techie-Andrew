@@ -1,0 +1,37 @@
+/*imp! REMOVE THE COMMENTS TO TEST THE CODE */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue: red;
+    --font-size-30: 30px;
+}
+
+p{
+    color: var(--blu,pink);
+    --blue: blue;
+    font-size: var(--font-size-30);
+}
+
+a{
+    color: var(--blue);
+    --blue: yellow;
+}
+
+@media screen and (max-width:600px){
+    :root{
+        --font-size-30: 20px;
+    }
+} */
+
+/* div{
+    width: min(50%,600px);
+    width: max(50%,600px);
+    width: 150px;
+    height: 150px;
+    background-color: red;
+} */

@@ -1,0 +1,95 @@
+/*imp! REMOVE THE COMMENTS TO TEST THE CODES */
+
+/*imp! SIMPLE SELECTORS */
+
+/*title: ID Selector */
+
+/* #demo-text{
+    color: red;
+} */
+
+/*title: Class Selector */
+
+/* .demo-text{
+    color: blue !important;
+}
+
+.demo-text{
+    color: yellow !important;
+}
+
+/*title: Grouping Selectors */
+
+/* h3,p{
+    background-color: green;
+} */
+
+/*imp! COMBINATOR SELECTORS */
+
+/*title: Descendant Selector */
+
+/* div p{
+    background-color: yellow;
+} */
+
+/*title: Child Selector */
+
+/* div > p{
+    background-color: red;
+} */
+
+/*title: Adjacent Sibling Selector */
+
+/* div + p{
+    color: red;
+} */
+
+/*title: General Sibling Selector */
+
+/* div ~ p{
+    color: red;
+} */
+
+/*imp! PSEUDOSELECTORS */
+
+/*title: Pseudo Class Selector */
+
+/* a:hover{
+    text-decoration: none;
+} */
+
+/*title: Pseudo Element Selector */
+
+/* .pseudo-p::before{
+    content: 'Hello ';
+} */
+
+/*imp!: ATTRIBUTE SELECTOR */
+
+/* p[class="demo"]{
+    background-color: red;
+} */
+
+/* p[title~="flower"]{
+    background-color: blue;
+} */
+
+/* p[title|="demo"]{
+    background-color: green;
+} */
+
+/* p[class^="de"]{
+    background-color: yellow;
+} */
+
+/* p[class$="mo"]{
+    background-color: blue;
+} */
+
+/* p[class*="em"]{
+    background-color: pink;
+} */
+
+/*imp! CSS Comments */
+
+/* Comments */

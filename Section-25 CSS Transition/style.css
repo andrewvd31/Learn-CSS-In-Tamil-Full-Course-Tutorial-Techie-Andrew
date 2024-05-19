@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+div:hover{
+    transform: scale(1.2);
+}
+
+div:nth-child(1){
+    background-color: lightblue;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-delay: 2s;
+    transition-timing-function: linear;
+}
+
+div:nth-child(2){
+    background-color: lightpink;
+    transition: transform 1.5s ease-out;
+}
+
+div:nth-child(3){
+    background-color: lightgrey;
+    transition: transform 1.5s ease-in-out;
+}
+
+div:nth-child(4){
+    background-color: lightcyan;
+    transition: transform 1.5s cubic-bezier(0.79,0.14,0.23,0.83);
+}

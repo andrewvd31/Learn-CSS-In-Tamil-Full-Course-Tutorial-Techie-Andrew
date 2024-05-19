@@ -1,0 +1,76 @@
+/* imp! REMOVE THE COMMENTS TO TEST THE CODE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*imp! TEXT ALIGN AND COLOR */
+
+/* p{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    text-align-last: justify;
+    /* direction: rtl;
+    unicode-bidi: bidi-override; 
+} */
+
+/* span{
+    vertical-align: super;
+} */
+
+/*imp! TEXT DECORATION */
+
+/* .text-decoration{
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+    text-decoration-style: double;
+    text-decoration: underline blue 7px dotted;
+} */
+
+/*imp! TEXT TRANSFORM */
+
+/* .text-transform{
+    text-transform: none;
+} */
+
+/*imp! TEXT SPACING */
+
+/* .text-indent{
+    text-indent: 50px;
+}
+
+.letter-spacing{
+    letter-spacing: -2px;
+}
+
+.word-spacing{
+    word-spacing: -5px;
+}
+
+.line-height{
+    line-height: 30px;
+}
+
+.white-space{
+    white-space: wrap;
+} */
+
+/*imp! TEXT SHADOW */
+
+/* .text-shadow{
+    text-shadow: -10px 0 10px red,-10px 5px 10px blue;
+} */
+
+/*imp! LIST PROPERTIES */
+
+ul,ol{
+    margin-left: 30px;
+}
+
+ol{
+    list-style: url(./arrow.png) outside;
+}

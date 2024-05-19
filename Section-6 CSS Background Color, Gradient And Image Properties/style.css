@@ -1,0 +1,26 @@
+/* imp! REMOVE THE COMMENTS TO TEST THE CODE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*imp! BACKGROUND COLOR, LINEAR-GRADIENT */
+
+/* .main-div{
+    background: linear-gradient(180deg, red,blue,yellow,#fff);
+    padding: 20px;
+} */
+
+/* .main-div p{
+    color: red;
+} */
+
+/* .sub-div{
+    background-image: url(./nature-img.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-attachment: scroll;
+} */

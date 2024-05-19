@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+div{
+    max-width: 800px;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+}
+
+p{
+    font-size: 3rem;
+}
+
+/* TABLET SIZE */
+
+@media screen and (max-width: 767px) {
+    body{
+        background-color: lightcoral;
+    }
+    p{
+        font-size: 2rem;
+    }
+}
+
+/* MOBILE SIZE */
+
+@media screen and (min-width: 600px) and (max-width:700px) {
+    body{
+        background-color: lightgreen;
+    }
+    p{
+        font-size: 1rem;
+    }
+}

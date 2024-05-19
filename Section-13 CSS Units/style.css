@@ -1,0 +1,64 @@
+/* REMOVE THE COMMENTS TO TEST THE CODE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+/*imp! ABSOLUTE LENGTH UNITS */
+
+/* .absolute{
+    font-size: 18px;
+    width: 300px;
+} */
+
+/* imp! RELATIVE LENGTH UNITS */
+
+/* .relative{
+    width: 50%;
+}
+
+.relative-main-div{
+    width: 300px;
+}
+
+.relative{
+    width: 25%;
+} */
+
+/* .em-div{
+    font-size: 2em;
+}
+
+.em{
+    font-size: 2em;
+} */
+
+/* .rem-div{
+    font-size: 2em;
+}
+
+.rem{
+    font-size: 1rem;
+} */
+
+/* .relative-value{
+    font-size: 2rem;
+    margin: 2em;
+    padding: 2em;
+} */
+
+/* .vw{
+    font-size: 10vw;
+} */
+
+/* .vh{
+    width: 100%;
+    height: 1vh;
+    background-color: red;
+} */

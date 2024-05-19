@@ -1,0 +1,82 @@
+/* imp! REMOVE THE COMMENTS TO TEST THE CODE */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-model{
+    background-color: yellow;
+    width: 200px;
+    padding: 20px 30px 80px 40px;
+    margin: 30px 20px 100px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+p{
+    background-color: red;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+p.dotted {
+    border: 5px dotted white;
+    border-style: dashed dotted solid dashed;
+    border-radius: 20px 30px 50px 40px;
+    outline-offset: 4px;
+    outline: 5px dotted lightskyblue;
+}
+
+p.dashed {
+    border-style: dashed;
+    outline-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+    outline-style: solid;
+}
+
+p.double {
+    border-style: double;
+    outline-style: double;
+}
+
+p.groove {
+    border-style: groove;
+    outline-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+    outline-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+    outline-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+    outline-style: outset;
+}
+
+p.none {
+    border-style: none;
+    outline-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+    outline-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+    outline-style: dotted dashed solid double;
+} */

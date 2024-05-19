@@ -1,0 +1,39 @@
+/* LINEAR-GRADIENT: linear-gradient(45deg, #0b006c,#0b006cd4) */
+
+/*imp! CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*imp! NAVBAR CSS */
+
+.main-div{
+    background: linear-gradient(45deg, #0b006c,#0b006cd4);
+    height: 85px;
+}
+
+.img-div{
+    width: 200px;
+    padding: 10px;
+}
+
+.img-div img{
+    width: 100%;
+    float: left;
+}
+
+.nav-item{
+    float: right;
+    margin-right: 45px;
+    margin-top: 5px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #e5e5e5;
+    font-size: 25px;
+    margin-right: 30px;
+}
